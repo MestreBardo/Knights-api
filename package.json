@@ -1,0 +1,23 @@
+{
+  "name": "knights-api",
+  "version": "1.0.0",
+  "description": "api criada para o desafio de desenvolvimento petra gold.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MestreBardo/Knights-api.git"
+  },
+  "author": "vinycius monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MestreBardo/Knights-api/issues"
+  },
+  "homepage": "https://github.com/MestreBardo/Knights-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7"
+  }
+}
