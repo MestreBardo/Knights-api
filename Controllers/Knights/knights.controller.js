@@ -2,7 +2,6 @@ const { knightModel } = require('../../Schemas/knight.schema')
 
 exports.listKnights = async (request, response, next) => {
     const filter = request.query.filter ?? "";
-    console.log(filter);
     try {
         
         const knights = await knightModel.find(filter.toLowerCase() === 'heroes' ? {hallOfHeroes: true} : {});
